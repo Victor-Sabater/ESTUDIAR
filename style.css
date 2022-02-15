@@ -1,0 +1,70 @@
+header.rojo{
+    text-align: center;
+    color: brown;
+}
+
+body{
+    background-color: bisque;
+}
+
+nav{
+    text-align: center;
+    background-color: red;
+}
+
+h1.carta{
+    color: brown;
+    text-align: center;
+    
+}
+
+
+h3.carta{
+    position: relative;
+    text-align: left;
+    bottom: -10px;
+}
+
+h1.cafe1{
+    color: brown;
+    text-align: center;
+}
+
+h3.cafe{
+    position: relative;
+    text-align: center;
+    bottom: -80px;
+}
+
+h1.contacto{
+    color: brown;
+    text-align: center;
+}
+
+h3.contacto{
+    position: relative;
+    text-align: right;
+    bottom: -200px;
+}
+<!--Tablas-->
+
+table.tabla{
+    border: red 1px solid;
+}
+
+table.tabla2{
+    border: blue 1px solid;
+}
+
+body.contacto{
+    text-align: center;
+    background-color: bisque;
+}
+
+article.izquierda{
+    display: inline-block;
+}
+
+article.derecha{
+    display: inline-block;
+}

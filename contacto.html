@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contacto">
+    <header><h1 class="contacto"> CONTACTO</h1></header>
+    <hr>
+    <!--Formulario-->
+<main>
+    <section>
+        <form action="examen1.php" method="get">
+            <h1>Accede a tu area clientes</h1>
+            <h3>Elige tu documento</h3>
+            <p>
+                <input type="radio" name="DNI" value="DNI">Dni o trajeta de residente <br>
+                <input type="radio" name="Pasaporte" value="Pasaporte">Pasaporte
+
+            </p>
+
+            <p>
+                Numero de Documento <br>
+                <input type="text" name="NIF" id="NIF" placeholder="DNI o Tarjeta de residente">
+           </p>
+
+           <p>
+               Fecha de Nacimiento <br>
+               <input type="date" name="Fecha" value="Fecha" id="name">
+           </p>
+
+           <p>
+               recordar <input type="checkbox" name="recordar" id="recordar" value="recordar">
+        </p>
+        <!--Boton de entrar-->
+        <p> <input type="submit" value="Entrar"> </p>
+
+        <p> <a href="https://ing.ingdirect.es/pfm/#login-dnie">> Acceder con DNI electronico</a></p>
+        <p> <a href="https://ing.ingdirect.es/pfm/#login/security-information"> > Mas informacion sobre seguridad</a></p>
+        </form>
+    </section>
+    <!--insertar videos,google maps-->
+</main>
+<article class="izquierda">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1540.1714944974658!2d-0.376445002919187!3d39.4615795074664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f34c332c569%3A0xc1b6bd7f3364476a!2sBluebell%20Coffee%20Roasters!5e0!3m2!1ses!2ses!4v1644957794613!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</article>    
+
+<article class="derecha">
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/UxmnUVev8EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</article>
+</body>
+</html>
